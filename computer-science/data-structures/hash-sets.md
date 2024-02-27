@@ -38,3 +38,108 @@ A container of data for unique data
 ### Diagram of a hash set
 
 <img src="../../.gitbook/assets/file.excalidraw (44).svg" alt="Diagram of a hash set" class="gitbook-drawing">
+
+## Visual flow of operations
+
+Here there will be a visual representation of what happens in most common operations for a hash sets.
+
+### Adding an item to a hash set
+
+{% tabs %}
+{% tab title="Step 1" %}
+<img src="../../.gitbook/assets/file.excalidraw (45).svg" alt="" class="gitbook-drawing">
+{% endtab %}
+
+{% tab title="Step 2" %}
+<img src="../../.gitbook/assets/file.excalidraw (46).svg" alt="" class="gitbook-drawing">
+{% endtab %}
+
+{% tab title="Step 3" %}
+<img src="../../.gitbook/assets/file.excalidraw (47).svg" alt="" class="gitbook-drawing">
+{% endtab %}
+
+{% tab title="Step 4" %}
+<img src="../../.gitbook/assets/file.excalidraw (48).svg" alt="" class="gitbook-drawing">
+{% endtab %}
+{% endtabs %}
+
+### Searching for an item in a hash set
+
+{% tabs %}
+{% tab title="Step 1" %}
+<img src="../../.gitbook/assets/file.excalidraw (49).svg" alt="" class="gitbook-drawing">
+{% endtab %}
+
+{% tab title="Step 2" %}
+<img src="../../.gitbook/assets/file.excalidraw (50).svg" alt="" class="gitbook-drawing">
+{% endtab %}
+
+{% tab title="Step 3" %}
+<img src="../../.gitbook/assets/file.excalidraw (51).svg" alt="" class="gitbook-drawing">
+{% endtab %}
+
+{% tab title="Step 4" %}
+<img src="../../.gitbook/assets/file.excalidraw (52).svg" alt="" class="gitbook-drawing">
+{% endtab %}
+{% endtabs %}
+
+### Removing an item from a hashset
+
+{% tabs %}
+{% tab title="Step 1" %}
+<img src="../../.gitbook/assets/file.excalidraw (53).svg" alt="" class="gitbook-drawing">
+{% endtab %}
+
+{% tab title="Step 2" %}
+<img src="../../.gitbook/assets/file.excalidraw (54).svg" alt="" class="gitbook-drawing">
+{% endtab %}
+
+{% tab title="Step 3" %}
+<img src="../../.gitbook/assets/file.excalidraw (55).svg" alt="" class="gitbook-drawing">
+{% endtab %}
+
+{% tab title="Step 4" %}
+<img src="../../.gitbook/assets/file.excalidraw (56).svg" alt="" class="gitbook-drawing">
+{% endtab %}
+{% endtabs %}
+
+## Code
+
+{% code lineNumbers="true" %}
+```csharp
+// Hash set 
+
+// Create a hash set of numbers
+HashSet<int> numbersSet = new HashSet<int>();
+
+// Add the numbers in
+numbersSet.Add(1);
+numbersSet.Add(2);
+numbersSet.Add(3);
+
+// Hash set contains - 1,2,3 (not in order)
+
+if(numbersSet.Contains(1))
+{
+// Then the set contains 1
+}
+
+numbersSet.Remove(1); 
+
+// Hash set contains - 2,3 (not in order)
+
+```
+{% endcode %}
+
+## Variants
+
+### Implantation
+
+There are different types of hash sets but most offer a different underlying implementing with hashing algorithms and collision mitigation,  some offer slight benefits such as keeping the order of the items and such but most really depend on the use case needed.
+
+### Use cases
+
+* Removing duplicates
+* Membership testing
+* Implementing sets and maps
+* Caches

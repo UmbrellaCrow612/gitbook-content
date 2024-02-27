@@ -111,7 +111,7 @@ Here there will be a visual representation of what happens in most common operat
 
 {% code lineNumbers="true" %}
 ```csharp
-// Hash Table kids
+// Hash Table
 
 // In c# we use a Dictionary as the hash table
 
