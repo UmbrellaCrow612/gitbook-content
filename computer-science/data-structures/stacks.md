@@ -88,7 +88,7 @@ Here there will be a visual representation of what happens in most common operat
 {% endtab %}
 
 {% tab title="Step 2" %}
-<img src="../../.gitbook/assets/file.excalidraw (1) (1) (1).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (1) (1) (1) (1).svg" alt="" class="gitbook-drawing">
 {% endtab %}
 
 {% tab title="Step 3" %}
