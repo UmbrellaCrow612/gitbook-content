@@ -1,5 +1,8 @@
 ---
 description: Graphs data structure knowledge
+cover: >-
+  https://images.unsplash.com/photo-1545987796-200677ee1011?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwxfHxuZXR3b3JrfGVufDB8fHx8MTcwODk3MzI0MHww&ixlib=rb-4.0.3&q=85
+coverY: 0
 ---
 
 # Graphs
