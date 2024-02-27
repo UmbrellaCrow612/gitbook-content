@@ -1,8 +1,13 @@
 # Table of contents
 
+## 🐢 Programming
+
+* [What is programming](README.md)
+* [Fundamental concepts](programming/fundamental-concepts.md)
+
 ## 💻 Computer Science
 
-* [🪅 Data Structures](README.md)
+* [🪅 Data Structures](<README (1).md>)
   * [Array](computer-science/data-structures/array.md)
   * [Linked Lists](computer-science/data-structures/linked-lists.md)
   * [Stacks](computer-science/data-structures/stacks.md)
