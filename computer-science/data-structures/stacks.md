@@ -38,7 +38,7 @@ A Last In First Out container of data
 
 ### Diagram of a stack
 
-<img src="../../.gitbook/assets/file.excalidraw (2).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (2) (1).svg" alt="" class="gitbook-drawing">
 
 ## Visual flow of operations
 
@@ -84,11 +84,11 @@ Here there will be a visual representation of what happens in most common operat
 
 {% tabs %}
 {% tab title="Step 1" %}
-<img src="../../.gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (9).svg" alt="" class="gitbook-drawing">
 {% endtab %}
 
 {% tab title="Step 2" %}
-<img src="../../.gitbook/assets/file.excalidraw (1).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (1) (1).svg" alt="" class="gitbook-drawing">
 {% endtab %}
 
 {% tab title="Step 3" %}

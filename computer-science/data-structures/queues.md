@@ -35,3 +35,109 @@ A First In First Out container of data
 | Enqueue (Insert) | O(1) | O(1)  |
 | Dequeue (Delete) | O(1) | O(1)  |
 | Peek (Access)    | O(1) | O(1)  |
+
+### Diagram of a queue
+
+<img src="../../.gitbook/assets/file.excalidraw (42).svg" alt="Diagram of a queue data structure" class="gitbook-drawing">
+
+## Visual flow of operations
+
+Here there will be a visual representation of what happens in most common operations for a queue.
+
+### Adding an item to a queue
+
+Also know as Enqueuing
+
+{% tabs %}
+{% tab title="Step 1" %}
+<img src="../../.gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
+{% endtab %}
+
+{% tab title="Step 2" %}
+<img src="../../.gitbook/assets/file.excalidraw (1).svg" alt="" class="gitbook-drawing">
+{% endtab %}
+
+{% tab title="Step 3" %}
+<img src="../../.gitbook/assets/file.excalidraw (2).svg" alt="" class="gitbook-drawing">
+{% endtab %}
+
+{% tab title="Step 4" %}
+<img src="../../.gitbook/assets/file.excalidraw (3).svg" alt="" class="gitbook-drawing">
+{% endtab %}
+
+{% tab title="Step 5" %}
+<img src="../../.gitbook/assets/file.excalidraw (4).svg" alt="" class="gitbook-drawing">
+{% endtab %}
+{% endtabs %}
+
+### Deleting an item from a queue
+
+Also known as Dequeuing
+
+{% tabs %}
+{% tab title="Step 1" %}
+<img src="../../.gitbook/assets/file.excalidraw (5).svg" alt="" class="gitbook-drawing">
+{% endtab %}
+
+{% tab title="Step 2" %}
+<img src="../../.gitbook/assets/file.excalidraw (6).svg" alt="" class="gitbook-drawing">
+{% endtab %}
+{% endtabs %}
+
+### Peeking an item from a queue
+
+{% tabs %}
+{% tab title="Step 1" %}
+<img src="../../.gitbook/assets/file.excalidraw (7).svg" alt="" class="gitbook-drawing">
+{% endtab %}
+
+{% tab title="Step 2" %}
+<img src="../../.gitbook/assets/file.excalidraw (8).svg" alt="" class="gitbook-drawing">
+{% endtab %}
+{% endtabs %}
+
+## Code
+
+{% code lineNumbers="true" %}
+```csharp
+// Queue code
+
+// Start with an empty queue
+Queue<int> numbersQueue = new Queue<int>();
+
+// Adding item to the queue
+numbersQueue.Enqueue(1);
+numbersQueue.Enqueue(2);
+numbersQueue.Enqueue(3);
+
+// Queue numbers - 1,2,3
+
+numbersQueue.Peek(); // returns 1
+
+numbersQueue.Dequeue(); // return 1 and also removes it from the queue
+
+// Queue numbers - 2,3
+
+numbersQueue.Dequeue(); // return 2 and also removes it from the queue
+numbersQueue.Dequeue(); // return 3 and also removes it from the queue
+
+// Queue is empty
+```
+{% endcode %}
+
+## Variants
+
+More topics worth knowing and understanding relating to queues
+
+### Priority Queue
+
+A regular queue but with priority on each element, meaning if one item has a higher priority than another then it will be the first to come out.&#x20;
+
+<figure><img src="../../.gitbook/assets/Priority-Queue-min-1024x512.png" alt=""><figcaption><p>Priority Queue Visual</p></figcaption></figure>
+
+### Use cases
+
+* Job/task scheduling
+* Messaging
+* Load balancing
+* Emergency room
