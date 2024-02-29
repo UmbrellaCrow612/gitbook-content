@@ -32,7 +32,7 @@ Set of nodes connected by edges, a node is a specific data type that can hold re
 
 ### Diagram of a graph
 
-<img src="../../.gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (9).svg" alt="" class="gitbook-drawing">
 
 ## Visual flow of operations
 
@@ -40,7 +40,7 @@ Here there will be a visual representation of what happens in most common operat
 
 ### Adding an item to a graph
 
-It really depends on what type of graph your dealing with but here is a common scenerio
+It really depends on what type of graph your dealing with but here is a common scenario
 
 {% tabs %}
 {% tab title="Step 1" %}
@@ -62,4 +62,147 @@ It really depends on what type of graph your dealing with but here is a common s
 
 ### Searching for item in a graph
 
+There are many algorithms out there for searching for a element in a graph however here i will just show a visual of what the most common scenario would be
+
+{% tabs %}
+{% tab title="Step 1" %}
+<img src="../../.gitbook/assets/file.excalidraw (5).svg" alt="" class="gitbook-drawing">
+{% endtab %}
+
+{% tab title="Step 2" %}
+<img src="../../.gitbook/assets/file.excalidraw (6).svg" alt="" class="gitbook-drawing">
+{% endtab %}
+
+{% tab title="Step 3" %}
+<img src="../../.gitbook/assets/file.excalidraw (7).svg" alt="" class="gitbook-drawing">
+{% endtab %}
+
+{% tab title="Step 4" %}
+<img src="../../.gitbook/assets/file.excalidraw (8).svg" alt="" class="gitbook-drawing">
+{% endtab %}
+{% endtabs %}
+
 ### Deleting an item from a graph
+
+This depends on what type of graph you have and also which node your deleting but here is a common scenario&#x20;
+
+{% tabs %}
+{% tab title="Step 1" %}
+<img src="../../.gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
+{% endtab %}
+
+{% tab title="Step 2" %}
+<img src="../../.gitbook/assets/file.excalidraw (1).svg" alt="" class="gitbook-drawing">
+{% endtab %}
+
+{% tab title="Step 3" %}
+<img src="../../.gitbook/assets/file.excalidraw (2).svg" alt="" class="gitbook-drawing">
+{% endtab %}
+
+{% tab title="Step 4" %}
+<img src="../../.gitbook/assets/file.excalidraw (3).svg" alt="" class="gitbook-drawing">
+{% endtab %}
+
+{% tab title="Step 5" %}
+<img src="../../.gitbook/assets/file.excalidraw (4).svg" alt="" class="gitbook-drawing">
+{% endtab %}
+{% endtabs %}
+
+## Code
+
+{% code lineNumbers="true" %}
+```csharp
+// Simple graph code
+class Graph
+{
+    private int Vertices; // Number of nodes in the graph
+    private Dictionary<int, List<int>> AdjacencyList;
+
+    // Constructor
+    public Graph(int vertices)
+    {
+        Vertices = vertices;
+        AdjacencyList = new Dictionary<int, List<int>>();
+
+        // Initialize empty adjacency lists for each node
+        for (int i = 0; i < Vertices; ++i)
+        {
+            AdjacencyList.Add(i, new List<int>());
+        }
+    }
+
+    // Function to add an edge
+    public void AddEdge(int source, int destination)
+    {
+        AdjacencyList[source].Add(destination);
+
+        // If it's undirected, add the opposite edge too 
+        // (Commented out for directed graph example)
+        // AdjacencyList[destination].Add(source);
+    }
+
+    // Helper for printing the graph representation
+    public void PrintGraph()
+    {
+        foreach (var node in AdjacencyList)
+        {
+            Console.Write("Node " + node.Key + " has connections: ");
+            foreach (var neighbor in node.Value)
+            {
+                Console.Write(neighbor + " ");
+            }
+            Console.WriteLine();
+        }
+    }
+}
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        // Sample usage
+        Graph graph = new Graph(4); // Create a graph with 4 nodes (0, 1, 2, 3)
+        graph.AddEdge(0, 1);
+        graph.AddEdge(0, 2);
+        graph.AddEdge(1, 3);
+        graph.AddEdge(2, 3);
+
+        graph.PrintGraph(); 
+    }
+}
+
+```
+{% endcode %}
+
+## Variants
+
+### Directed Graph
+
+Edges have a direction (one-way relationship). For example, a dependency graph where task A must precede task B.
+
+<figure><img src="../../.gitbook/assets/Directed_graph_no_background.svg.png" alt=""><figcaption></figcaption></figure>
+
+### Undirected Graph
+
+Edges have no direction (two-way relationship). Example: a map where roads connect cities without specifying one-way travel.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2024-02-29 170817.png" alt=""><figcaption></figcaption></figure>
+
+### **Weighted** Graphs
+
+Edges have associated values (costs or weights). Example: a map where distances or travel times are indicated along roads.
+
+<figure><img src="../../.gitbook/assets/w-graph.webp" alt=""><figcaption></figcaption></figure>
+
+### Tree
+
+A hierarchical graph with a root node, branches, and leaves. No cycles. Example: File systems.
+
+<figure><img src="../../.gitbook/assets/270px-Tree_graph.svg.png" alt=""><figcaption></figcaption></figure>
+
+### Use cases
+
+* Social Networks
+* Recommendation Systems&#x20;
+* Route Planning and Navigation
+* Fraud detection
