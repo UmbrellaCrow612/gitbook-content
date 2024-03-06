@@ -22,12 +22,80 @@ Steps:
 
 ### Time and space complexity of a binary search
 
-Time - **Olog(N)**
+Time - Olog(N)
 
-Space - **O(1)**
+Space - O(1)
 
 ## Visual flow of binary search
 
+{% tabs %}
+{% tab title="Step 1" %}
+<img src="../../.gitbook/assets/file.excalidraw (65).svg" alt="" class="gitbook-drawing">
+{% endtab %}
+
+{% tab title="Step 2" %}
+<img src="../../.gitbook/assets/file.excalidraw (67).svg" alt="" class="gitbook-drawing">
+{% endtab %}
+
+{% tab title="Step 3" %}
+<img src="../../.gitbook/assets/file.excalidraw (68).svg" alt="" class="gitbook-drawing">
+{% endtab %}
+
+{% tab title="Step 4" %}
+<img src="../../.gitbook/assets/file.excalidraw (69).svg" alt="" class="gitbook-drawing">
+{% endtab %}
+{% endtabs %}
+
 ## Code implementation of binary search
 
+{% code lineNumbers="true" %}
+```csharp
+// Binary Search
+
+int BinarySearch(int[] sortedNumbers, int targetValue)
+{
+    // We start the left pointer at the beginning
+    int leftPointer = 0;
+    // We start the right pointer at the end
+    int rightPointer = sortedNumbers.Length - 1;
+
+    // while the pointers havent reached each other
+    while (leftPointer <= rightPointer)
+    {
+        // Calculate the index of the midpoint
+        int midPoint = (leftPointer + rightPointer) / 2;
+        // Get the value at that index
+        int valueAtTheMidPoint = sortedNumbers[midPoint];
+
+        // Compare if the value is our target
+        if (valueAtTheMidPoint == targetValue)
+        {
+            // if it is we return the index of the target value
+            return midPoint;
+
+            // If the target is greater than the value
+        }
+        else if (valueAtTheMidPoint < targetValue)
+        {
+            // Search the top right half
+            leftPointer = midPoint + 1;
+        }
+        else
+        {
+            // Search the bottom left half
+            rightPointer = midPoint - 1;
+        }
+
+    }
+
+    // If we did not find the value we return -1 or the leftPointer which would
+    // be its index if it was in the array
+    return -1;
+}
+```
+{% endcode %}
+
 ## When to use a binary search
+
+* When you have sorted array of items
+* When you need to find a value in Olog(N) time
