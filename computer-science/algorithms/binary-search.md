@@ -1,5 +1,8 @@
 ---
 description: Binary Search algorithm knowledge
+cover: >-
+  https://images.unsplash.com/photo-1586769852836-bc069f19e1b6?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw0fHxzZWFyY2h8ZW58MHx8fHwxNzA5NzI1ODU4fDA&ixlib=rb-4.0.3&q=85
+coverY: 0
 ---
 
 # Binary Search

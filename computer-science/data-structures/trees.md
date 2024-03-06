@@ -1,5 +1,8 @@
 ---
 description: Trees data structure knowledge
+cover: >-
+  https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw1fHx0cmVlfGVufDB8fHx8MTcwOTcyNTgzNXww&ixlib=rb-4.0.3&q=85
+coverY: 0
 ---
 
 # Trees
