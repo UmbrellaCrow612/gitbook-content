@@ -98,19 +98,19 @@ Step 2
 
 {% tabs %}
 {% tab title="Step 1" %}
-<img src="../../.gitbook/assets/file.excalidraw (3) (1) (1) (1).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (3) (1) (1) (1) (1).svg" alt="" class="gitbook-drawing">
 {% endtab %}
 
 {% tab title="Step 2" %}
-<img src="../../.gitbook/assets/file.excalidraw (4) (1) (1) (1).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (4) (1) (1) (1) (1).svg" alt="" class="gitbook-drawing">
 {% endtab %}
 
 {% tab title="Step 3" %}
-<img src="../../.gitbook/assets/file.excalidraw (5) (1) (1) (1).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (5) (1) (1) (1) (1).svg" alt="" class="gitbook-drawing">
 {% endtab %}
 
 {% tab title="Step 4" %}
-<img src="../../.gitbook/assets/file.excalidraw (6) (1) (1) (1).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (6) (1) (1) (1) (1).svg" alt="" class="gitbook-drawing">
 {% endtab %}
 
 {% tab title="Step 5" %}

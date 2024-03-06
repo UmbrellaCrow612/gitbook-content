@@ -20,7 +20,7 @@
   * [Binary Search Trees](computer-science/data-structures/binary-search-trees.md)
   * [Heaps](computer-science/data-structures/heaps.md)
 * [🤖 Algorithms](computer-science/algorithms/README.md)
-  * [Algo one](computer-science/algorithms/algo-one.md)
+  * [Binary Search](computer-science/algorithms/binary-search.md)
 * [🟢 Graph Theory](computer-science/graph-theory/README.md)
   * [Page 1](computer-science/graph-theory/page-1.md)
 * [🤔 Problem Solving](computer-science/problem-solving.md)
