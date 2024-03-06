@@ -4,7 +4,7 @@ description: A List of algorithms that i will learn deeply
 
 # 🤖 Algorithms
 
-* Binary Search
+* [Binary Search](binary-search.md)
 * Bubble Sort
 * Depth First Search
 * Breadth First Search

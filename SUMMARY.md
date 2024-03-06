@@ -23,4 +23,8 @@
   * [Binary Search](computer-science/algorithms/binary-search.md)
 * [🟢 Graph Theory](computer-science/graph-theory/README.md)
   * [Page 1](computer-science/graph-theory/page-1.md)
-* [🤔 Problem Solving](computer-science/problem-solving.md)
+
+## 🍧 Common programming questions concepts
+
+* [Page](common-programming-questions-concepts/page.md)
+* [🤔 Problem Solving](common-programming-questions-concepts/problem-solving.md)
