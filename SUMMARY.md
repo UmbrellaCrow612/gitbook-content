@@ -21,10 +21,16 @@
   * [Heaps](computer-science/data-structures/heaps.md)
 * [🤖 Algorithms](computer-science/algorithms/README.md)
   * [Binary Search](computer-science/algorithms/binary-search.md)
+  * [Bubble Sort](computer-science/algorithms/bubble-sort.md)
 * [🟢 Graph Theory](computer-science/graph-theory/README.md)
   * [Page 1](computer-science/graph-theory/page-1.md)
 
 ## 🍧 Common programming questions concepts
 
-* [Page](common-programming-questions-concepts/page.md)
 * [🤔 Problem Solving](common-programming-questions-concepts/problem-solving.md)
+* [Concepts](common-programming-questions-concepts/concepts/README.md)
+  * [Page 3](common-programming-questions-concepts/concepts/page-3.md)
+
+***
+
+* [👨‍🔬 todo later](todo-later.md)

@@ -47,23 +47,23 @@ Here there will be a visual representation of what happens in most common operat
 
 {% tabs %}
 {% tab title="Step 1" %}
-<img src="../../.gitbook/assets/file.excalidraw (1) (1) (1).svg" alt="" class="gitbook-drawing">
-{% endtab %}
-
-{% tab title="Step 2" %}
 <img src="../../.gitbook/assets/file.excalidraw (1) (1) (1) (1).svg" alt="" class="gitbook-drawing">
 {% endtab %}
 
+{% tab title="Step 2" %}
+<img src="../../.gitbook/assets/file.excalidraw (1) (1) (1) (1) (1).svg" alt="" class="gitbook-drawing">
+{% endtab %}
+
 {% tab title="Step 3" %}
-<img src="../../.gitbook/assets/file.excalidraw (2) (1) (1).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (2) (1) (1) (1).svg" alt="" class="gitbook-drawing">
 {% endtab %}
 
 {% tab title="Step 4" %}
-<img src="../../.gitbook/assets/file.excalidraw (3) (1) (1).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (3) (1) (1) (1).svg" alt="" class="gitbook-drawing">
 {% endtab %}
 
 {% tab title="Step 5" %}
-<img src="../../.gitbook/assets/file.excalidraw (4) (1) (1).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (4) (1) (1) (1).svg" alt="" class="gitbook-drawing">
 {% endtab %}
 {% endtabs %}
 
@@ -71,15 +71,15 @@ Here there will be a visual representation of what happens in most common operat
 
 {% tabs %}
 {% tab title="Step 1" %}
-<img src="../../.gitbook/assets/file.excalidraw (5) (1) (1).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (5) (1) (1) (1).svg" alt="" class="gitbook-drawing">
 {% endtab %}
 
 {% tab title="Step 2" %}
-<img src="../../.gitbook/assets/file.excalidraw (6) (1) (1).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (6) (1) (1) (1).svg" alt="" class="gitbook-drawing">
 {% endtab %}
 
 {% tab title="Step 3" %}
-<img src="../../.gitbook/assets/file.excalidraw (7) (1).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (7) (1) (1).svg" alt="" class="gitbook-drawing">
 {% endtab %}
 
 {% tab title="Step 4" %}

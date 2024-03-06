@@ -33,7 +33,7 @@ Set of nodes linked together, there is only one path linking two nodes together 
 
 ### Diagram of a Tree
 
-<img src="../../.gitbook/assets/file.excalidraw (4).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (4) (1).svg" alt="" class="gitbook-drawing">
 
 ## Visual flow of operations
 
@@ -67,18 +67,18 @@ When deleting it can vary depending on what type of tree data structure you have
 
 {% tabs %}
 {% tab title="Step 1" %}
-<img src="../../.gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (7).svg" alt="" class="gitbook-drawing">
 {% endtab %}
 
 {% tab title="Step 2" %}
-<img src="../../.gitbook/assets/file.excalidraw (1).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (1) (1).svg" alt="" class="gitbook-drawing">
 {% endtab %}
 
 {% tab title="Step 3" %}
-<img src="../../.gitbook/assets/file.excalidraw (2).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (2) (1).svg" alt="" class="gitbook-drawing">
 {% endtab %}
 
 {% tab title="Step 4" %}
-<img src="../../.gitbook/assets/file.excalidraw (3).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (3) (1).svg" alt="" class="gitbook-drawing">
 {% endtab %}
 {% endtabs %}
