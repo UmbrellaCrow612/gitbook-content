@@ -17,11 +17,11 @@ When people first start they look at tutorials or youtube videos telling them th
 
 ### What todo
 
-* Learn the [fundamentals of programming](programming/fundamental-concepts.md)
+* Learn the [fundamentals of programming](programming/fundamental-concepts/)
 * Understand that you don't need to know everything
 * Understand that you should not focus learning the bleeding edge tech that most videos show you
 * Understand that most big companies use so called old tech
 * Understand that learning and becoming good in these so called old tech lands you a job
 * Understand that you should pick a discipline and focus on becoming a master in it (specific field in software engineering)
 * Always keep learning and becoming better
-* Enjoy learning and becoming better
+* Enjoy learning and becoming better&#x20;
