@@ -3,7 +3,7 @@
 ## 🐢 Programming
 
 * [What is programming](README.md)
-* [Fundamental concepts](programming/fundamental-concepts/README.md)
+* [Fundamental concepts](programming/fundamental-concepts.md)
   * [Variables & Data Types](programming/fundamental-concepts/variables-and-data-types.md)
 
 ## 💻 Computer Science

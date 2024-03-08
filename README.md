@@ -17,7 +17,7 @@ When people first start they look at tutorials or youtube videos telling them th
 
 ### What todo
 
-* Learn the [fundamentals of programming](programming/fundamental-concepts/)
+* Learn the [fundamentals of programming](programming/fundamental-concepts.md)
 * Understand that you don't need to know everything
 * Understand that you should not focus learning the bleeding edge tech that most videos show you
 * Understand that most big companies use so called old tech

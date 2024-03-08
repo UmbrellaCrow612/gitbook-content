@@ -1,5 +1,8 @@
 ---
 description: Fundamentals of Variables & Data Types
+cover: >-
+  https://images.unsplash.com/photo-1589630388147-68b3a2172e0c?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwxfHxidWNrZXR8ZW58MHx8fHwxNzA5OTE4MTIyfDA&ixlib=rb-4.0.3&q=85
+coverY: 0
 ---
 
 # Variables & Data Types
