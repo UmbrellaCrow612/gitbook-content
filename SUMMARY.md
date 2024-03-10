@@ -5,6 +5,7 @@
 * [What is programming](README.md)
 * [Fundamental concepts](programming/fundamental-concepts.md)
   * [Variables & Data Types](programming/fundamental-concepts/variables-and-data-types.md)
+  * [Control Structures](programming/fundamental-concepts/control-structures.md)
 
 ## 💻 Computer Science
 
