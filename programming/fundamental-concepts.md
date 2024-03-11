@@ -9,3 +9,5 @@ coverY: 0
 
 * [Data Types](fundamental-concepts/variables-and-data-types.md)
 * [Control Structures](fundamental-concepts/control-structures.md)
+* [Functions & Methods](fundamental-concepts/functions-and-methods.md)
+* [Debugging & Testing](fundamental-concepts/debugging-and-testing.md)

@@ -1,5 +1,8 @@
 ---
 description: Fundamental knowledge of functions and methods
+cover: >-
+  https://images.unsplash.com/photo-1559249875-05d44554edd2?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw0fHxibG9ja3xlbnwwfHx8fDE3MTAxNTc0MDh8MA&ixlib=rb-4.0.3&q=85
+coverY: 0
 ---
 
 # Functions & Methods
@@ -31,7 +34,7 @@ int calculateArea(int length, int width) {
 
 ## Methods
 
-**Actions" of Objects:** Methods are functions that are associated with objects in object-oriented programming . They define the behaviors or actions that an object can perform.
+**Actions of Objects:** Methods are functions that are associated with objects in object-oriented programming . They define the behaviors or actions that an object can perform.
 
 ### Example
 

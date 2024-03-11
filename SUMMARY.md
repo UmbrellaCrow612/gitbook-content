@@ -7,6 +7,7 @@
   * [Variables & Data Types](programming/fundamental-concepts/variables-and-data-types.md)
   * [Control Structures](programming/fundamental-concepts/control-structures.md)
   * [Functions & Methods](programming/fundamental-concepts/functions-and-methods.md)
+  * [Debugging and Testing](programming/fundamental-concepts/debugging-and-testing.md)
 
 ## 💻 Computer Science
 
