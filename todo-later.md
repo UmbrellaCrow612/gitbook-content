@@ -5,3 +5,5 @@
 $$
 Time = O(N)^2
 $$
+
+* Remove line numbers from code examples

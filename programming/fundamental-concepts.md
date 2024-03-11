@@ -8,3 +8,4 @@ coverY: 0
 # Fundamental concepts
 
 * [Data Types](fundamental-concepts/variables-and-data-types.md)
+* [Control Structures](fundamental-concepts/control-structures.md)

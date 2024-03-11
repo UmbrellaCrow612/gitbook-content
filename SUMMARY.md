@@ -6,6 +6,7 @@
 * [Fundamental concepts](programming/fundamental-concepts.md)
   * [Variables & Data Types](programming/fundamental-concepts/variables-and-data-types.md)
   * [Control Structures](programming/fundamental-concepts/control-structures.md)
+  * [Functions & Methods](programming/fundamental-concepts/functions-and-methods.md)
 
 ## 💻 Computer Science
 
