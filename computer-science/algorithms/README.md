@@ -6,7 +6,7 @@ description: A List of algorithms that i will learn deeply
 
 * [Binary Search](binary-search.md)
 * [Bubble Sort](bubble-sort.md)
-* Depth First Search
+* [Depth First Search](depth-first-search.md)
 * Breadth First Search
 * Dijkstra's Algorithm
 * Dynamic Programming
