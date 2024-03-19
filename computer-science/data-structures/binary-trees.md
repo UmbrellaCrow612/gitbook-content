@@ -15,7 +15,7 @@ This is a key idea to understand, as once you understand the fundamentals of wha
 
 ### Definition of a Binary Tree
 
-set of nodes linked together, there is only one path linking two nodes together and no cycles exist, each node has at most two children.
+Set of nodes linked together, there is only one path linking two nodes together and no cycles exist, each node has at most two children.
 
 ### Properties of a Binary Tree
 
