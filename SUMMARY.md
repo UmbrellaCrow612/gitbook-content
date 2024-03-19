@@ -26,6 +26,7 @@
 * [🤖 Algorithms](computer-science/algorithms/README.md)
   * [Binary Search](computer-science/algorithms/binary-search.md)
   * [Bubble Sort](computer-science/algorithms/bubble-sort.md)
+  * [Depth First Search](computer-science/algorithms/depth-first-search.md)
 * [🟢 Graph Theory](computer-science/graph-theory/README.md)
   * [Page 1](computer-science/graph-theory/page-1.md)
 
